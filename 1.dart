@@ -41,7 +41,7 @@ void main(List<String> arguments) {
         },
         {
           'skill_name': 'dart - flutter',
-          'level': 'advanced',
+          'level': 'beginner',
         },
         {
           'skill_name': 'javascript',
