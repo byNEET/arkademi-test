@@ -1,1 +1,1 @@
-SELECT cas.name, prod.name, cate.name, prod.price FROM cashier cas JOIN product prod ON cas.id = prod.id_cashier JOIN category cate ON cate.id = prod.id_category 
+SELECT cas.name AS cashier, prod.name AS product, cate.name AS category, prod.price FROM cashier cas JOIN product prod ON cas.id = prod.id_cashier JOIN category cate ON cate.id = prod.id_category
