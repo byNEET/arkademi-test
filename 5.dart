@@ -20,6 +20,7 @@ void main(List<String> arguments) {
         countval++;
       } while (res > 1);
       print(aray);
+      print(aray.length);
     }
   }
 

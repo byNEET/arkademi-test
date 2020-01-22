@@ -1,6 +1,6 @@
 void main(List<String> arguments) {
   void cetak_gambar(int val) {
-    if (val == 1 || val % 2 == 0) {
+    if (val % 2 == 0) {
       print('Parameter harus angka dan ganjil!');
     } else {
       print('---  Panjang  ---');
@@ -27,5 +27,5 @@ void main(List<String> arguments) {
     }
   }
 
-  cetak_gambar(5);
+  cetak_gambar(3);
 }
